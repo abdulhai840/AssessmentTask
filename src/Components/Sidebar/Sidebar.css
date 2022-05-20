@@ -1,0 +1,164 @@
+
+.White {
+  color: white !important;
+}
+
+.Bold {
+  font-weight: 500px;
+}
+
+.ant-layout-sider.ant-layout-sider-dark {
+  min-height: 750px !important;
+}
+
+.ant-menu {
+  font-size: 15px !important;
+}
+
+.ant-menu-item-selected a,
+.ant-menu-item-selected a:hover {
+  color: white !important;
+}
+
+.ant-menu-item.active {
+  background-color: #022945 !important;
+}
+
+.ant-menu-item.active a,
+.ant-menu-item.active a:hover {
+  color: white !important;
+}
+.ant-menu-item.ant-menu-item-active.ant-menu-item-selected.ant-menu-item-only-child{
+  background-color: unset !important;
+}
+.ant-menu-inline .ant-menu-selected::after, .ant-menu-inline .ant-menu-item-selected::after{
+  opacity: 0 !important;
+}
+.ant-menu-item.ant-menu-item-only-child {
+  color       : white !important;
+  padding-left: 70px !important;
+}
+
+.ant-menu-item.ant-menu-item-only-child.active {
+  color       : #04315E !important;
+  padding-left: 70px !important;
+  border-right: 3px solid #022945;
+}
+
+.ant-menu-submenu.active {
+  color: white !important;
+}
+
+.ant-layout-header {
+  background-color: #04315E !important;
+}
+
+.ant-layout-sider.ant-layout-sider .profile span {
+  width      : 100px !important;
+  height     : 100px !important;
+  line-height: 100px !important;
+}
+
+.ant-menu-item li {
+  list-style: none !important;
+}
+
+aside.ant-layout-sider.ant-layout-sider-dark {
+  min-width: 18% !important;
+  max-width: 18% !important;
+}
+
+aside.ant-layout-sider.ant-layout-sider-dark.ant-layout-sider-collapsed {
+  min-width: 80px !important;
+  max-width: 80px !important;
+}
+.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light{
+  background-color: #04315E;
+}
+.ant-menu-item {
+  height       : auto !important;
+  margin-bottom: 0px !important;
+}
+
+.ant-menu-inline {
+  height: inherit;
+}
+
+.ant-menu-inline .profile {
+  padding   : 8px;
+  margin-top: 20px;
+}
+
+
+.ant-layout-sider.ant-layout-sider-dark.ant-layout-sider-collapsed .options span,
+.ant-layout-sider.ant-layout-sider-dark.ant-layout-sider-collapsed .ant-menu-submenu-title span {
+  display: none;
+}
+
+.ant-menu-item.ant-menu-item-only-child {
+  padding-left: 13% !important;
+}
+
+.ant-menu-item.ant-menu-item-only-child.active {
+  padding-left: 18% !important;
+}
+
+.ant-menu-sub .ant-menu-submenu-title {
+  padding-left: 18% !important;
+}
+
+.ant-menu-sub .ant-menu-item-only-child {
+  padding-left: 15% !important;
+}
+
+.marginTop {
+  margin-top: 150px !important;
+}
+
+
+.padding30px {
+  padding-top   : 30px !important;
+  padding-bottom: 30px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  cursor: context-menu
+}
+
+.min32 {
+  min-height: 32px;
+}
+
+/* Dashboard */
+.Dashboard .card-body h5 {
+  min-height: 48px;
+}
+
+/* table */
+th,
+td {
+  min-width: 120px;
+  padding  : 12px 12px;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  .ant-layout-sider {
+    width: 25% !important;
+  }
+
+  .profile img {
+    width: 75% !important;
+  }
+
+  .ant-menu-sub li {
+    font-size: 90% !important;
+  }
+}
+
