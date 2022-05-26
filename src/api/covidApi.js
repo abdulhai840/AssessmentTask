@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const getData = () => {
     let result = axios
-      .get(`https://disease.sh/v3/covid-19/countries`)
+      .get(`countries`)
       .then((res) => {
         return res;
       })
@@ -14,7 +14,7 @@ export const getData = () => {
 
   export const getGlobal = () => {
     let result = axios
-      .get(`https://disease.sh/v3/covid-19/all`)
+      .get(`all`)
       .then((res) => {
         return res;
       })
